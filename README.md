@@ -27,3 +27,12 @@ else:
     print(c)
     print(d)
     print(e)
+ 
+ if __name__ == '__main__':
+    a = int(raw_input())
+    b = int(raw_input())
+    f=a//b
+    g=a/b
+    print(f)
+    print(g)
+
