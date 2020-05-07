@@ -36,3 +36,8 @@ else:
     print(f)
     print(g)
 
+if __name__ == '__main__':
+    n = int(raw_input())
+    for i in range(0,n):
+        print(i*i)
+        #print pow(i,2)
