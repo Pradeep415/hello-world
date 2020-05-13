@@ -41,3 +41,19 @@ if __name__ == '__main__':
     for i in range(0,n):
         print(i*i)
         #print pow(i,2)
+        
+        
+def is_leap(year):
+    if year % 400 == 0:
+        return True
+    if year % 100 == 0:
+        return False
+    if year % 4 == 0:
+        return True
+    # Write your logic here
+
+    return False
+    
+
+year = int(raw_input())
+print is_leap(year)
